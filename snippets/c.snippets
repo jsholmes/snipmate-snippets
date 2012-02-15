@@ -109,8 +109,9 @@ snippet pr
 snippet fpr
 	fprintf(${1:stderr}, "${2:%s}\n"${3});${4}
 # This is kind of convenient
-snippet .
-	[${1}]${2}
+# jsholmes: commented out because this breaks supertab completion on '.'
+# snippet .
+# 	[${1}]${2}
 # GPL
 snippet gpl
 	/*
